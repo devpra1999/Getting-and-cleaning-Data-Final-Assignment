@@ -14,7 +14,9 @@
 
 - 'Subject_ID': (type = integer) Created new variable indicating the subject using the subject_combined.txt file(Section 2.2)
 
-- 'Activity': (type = character)Created new variable to identify the activity, using activity_labels.txt(linking numbers 1-6 to different activities) and y_combined.txt(containing numbers indicating activity of each record in X_combinde.txt) 
+- 'Activity': (type = character)Created new variable to identify the activity, using activity_labels.txt(linking numbers 1-6 to different activities) and y_combined.txt(containing numbers indicating activity of each record in X_combinde.txt) (Section 2.2)
+
+- mean and std measurement variables: Obtained the names from the features.txt(Section 2.2) file and removed the special characters to create variable names for the dataset
 
 ### 2.2. The UCI HAR Dataset includes the following files:
 
