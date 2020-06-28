@@ -14,4 +14,4 @@ final_dataset <- as.data.frame( t(sapply(s, colMeans)) )
 
 final_dataset$Activity <- label[final_dataset$Activity]
 
-write.table(final_dataset, file = "./combined/final dataset.txt")
+write.table(final_dataset, file = "./combined/final dataset.txt", row.names = FALSE)
